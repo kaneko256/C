@@ -20,8 +20,9 @@ void disp_fibonacci(int n)
     {
     case 1:
         printf("0, ");
+        break;
     case 2:
-        printf("1, ");
+        printf("0, 1, ");
         break;
     default:
         printf("%d, ", i);
